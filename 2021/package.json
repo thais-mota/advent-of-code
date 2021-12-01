@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsc-watch --onSuccess \"npm start\"",
-    "start": "node ./dist/day1.js"
+    "start": "node ./dist/day1.js",
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
