@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsc-watch --onSuccess \"npm start\"",
-    "start": "node ./dist/day1.js",
+    "start": "node ./dist/day2/day2.js",
     "test": "jest",
     "test:cov": "jest --coverage --config jest.config.json --no-cache",
     "test:watch": "jest --watch"
